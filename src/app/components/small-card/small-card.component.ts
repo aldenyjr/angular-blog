@@ -11,4 +11,6 @@ export class SmallCardComponent {
     'https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png';
   @Input()
   cardTitle: string = 'Texto Padrão';
+  @Input()
+  Id: string = '0';
 }
